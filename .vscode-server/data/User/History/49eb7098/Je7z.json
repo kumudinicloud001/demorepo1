@@ -1,0 +1,9 @@
+{
+    "remote.SSH.remotePlatform": {
+        "gcpserver": "linux",
+        "newserver": "linux",
+        "myserver": "linux",
+        "practiceserver02": "linux"
+    },
+    "editor.accessibilitySupport": "on"
+}
