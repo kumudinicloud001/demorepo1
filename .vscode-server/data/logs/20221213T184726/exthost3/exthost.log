@@ -7,3 +7,6 @@
 2022-12-13 19:50:36.398 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
 2022-12-13 19:50:36.399 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2022-12-13 19:50:36.399 [info] Eager extensions activated
+2022-12-13 20:39:59.485 [info] Extension host terminating: received terminate message from renderer
+2022-12-13 20:39:59.488 [info] Lock '/home/kumudinicloud001/.vscode-server/data/User/workspaceStorage/786b16568c6c98be4f1e974d1604ad08/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-13 20:39:59.502 [info] Extension host with pid 4711 exiting with code 0

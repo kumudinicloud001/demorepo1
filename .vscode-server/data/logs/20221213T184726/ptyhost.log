@@ -13,3 +13,19 @@
 2022-12-13 19:50:40.930 [warning] Persistent process "10": Process had no disconnect runners but was an orphan
 2022-12-13 19:50:40.931 [info] Persistent process reconnection "10"
 2022-12-13 19:50:41.014 [info] Persistent process "10": Replaying 4988 chars and 1 size events
+2022-12-13 20:40:13.880 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2022-12-13 20:40:13.897 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2022-12-13 20:40:13.911 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2022-12-13 20:40:13.950 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2022-12-13 20:40:18.846 [warning] Persistent process "18": Process had no disconnect runners but was an orphan
+2022-12-13 20:40:18.846 [info] Persistent process reconnection "18"
+2022-12-13 20:40:18.847 [warning] Persistent process "21": Process had no disconnect runners but was an orphan
+2022-12-13 20:40:18.847 [info] Persistent process reconnection "21"
+2022-12-13 20:40:18.847 [warning] Persistent process "19": Process had no disconnect runners but was an orphan
+2022-12-13 20:40:18.847 [info] Persistent process reconnection "19"
+2022-12-13 20:40:18.847 [warning] Persistent process "20": Process had no disconnect runners but was an orphan
+2022-12-13 20:40:18.847 [info] Persistent process reconnection "20"
+2022-12-13 20:40:18.896 [info] Persistent process "18": Replaying 4194 chars and 1 size events
+2022-12-13 20:40:18.922 [info] Persistent process "21": Replaying 9314 chars and 1 size events
+2022-12-13 20:40:18.948 [info] Persistent process "19": Replaying 1231 chars and 1 size events
+2022-12-13 20:40:19.001 [info] Persistent process "20": Replaying 1174 chars and 1 size events

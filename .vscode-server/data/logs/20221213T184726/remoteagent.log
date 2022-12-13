@@ -22,3 +22,42 @@
 2022-12-13 19:50:34.442 [info] [127.0.0.1][8ae6a5f2][ExtensionHostConnection] New connection established.
 2022-12-13 19:50:34.450 [info] [127.0.0.1][8ae6a5f2][ExtensionHostConnection] <4711> Launched Extension Host Process.
 2022-12-13 19:55:34.292 [info] New EH opened, aborting shutdown
+2022-12-13 20:39:59.487 [info] [127.0.0.1][2ba60015][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-13 20:39:59.511 [info] [127.0.0.1][8ae6a5f2][ExtensionHostConnection] <4711> Extension Host Process exited with code: 0, signal: null.
+2022-12-13 20:39:59.512 [info] Last EH closed, waiting before shutting down
+2022-12-13 20:40:12.450 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-13 20:40:12.450 [info] Cancelling previous shutdown timeout
+2022-12-13 20:40:12.660 [info] [127.0.0.1][502aa3bf][ManagementConnection] New connection established.
+2022-12-13 20:40:12.681 [info] [127.0.0.1][e76c3754][ExtensionHostConnection] New connection established.
+2022-12-13 20:40:12.688 [info] [127.0.0.1][e76c3754][ExtensionHostConnection] <14425> Launched Extension Host Process.
+2022-12-13 20:45:12.451 [info] New EH opened, aborting shutdown
+2022-12-13 22:27:32.916 [info] [127.0.0.1][502aa3bf][ManagementConnection] The client has reconnected.
+2022-12-13 22:27:33.958 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-13 22:27:33.958 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/kumudinicloud001/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-13 22:28:08.833 [info] [127.0.0.1][e76c3754][ExtensionHostConnection] The client has reconnected.
