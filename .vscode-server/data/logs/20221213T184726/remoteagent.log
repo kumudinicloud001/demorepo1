@@ -13,3 +13,12 @@
 2022-12-13 18:57:10.243 [info] [127.0.0.1][db5d677e][ExtensionHostConnection] New connection established.
 2022-12-13 18:57:10.250 [info] [127.0.0.1][db5d677e][ExtensionHostConnection] <1243> Launched Extension Host Process.
 2022-12-13 19:02:10.075 [info] New EH opened, aborting shutdown
+2022-12-13 19:45:44.481 [info] [127.0.0.1][6879b50a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-13 19:45:44.517 [info] [127.0.0.1][db5d677e][ExtensionHostConnection] <1243> Extension Host Process exited with code: 0, signal: null.
+2022-12-13 19:45:44.518 [info] Last EH closed, waiting before shutting down
+2022-12-13 19:50:34.290 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-13 19:50:34.290 [info] Cancelling previous shutdown timeout
+2022-12-13 19:50:34.420 [info] [127.0.0.1][2ba60015][ManagementConnection] New connection established.
+2022-12-13 19:50:34.442 [info] [127.0.0.1][8ae6a5f2][ExtensionHostConnection] New connection established.
+2022-12-13 19:50:34.450 [info] [127.0.0.1][8ae6a5f2][ExtensionHostConnection] <4711> Launched Extension Host Process.
+2022-12-13 19:55:34.292 [info] New EH opened, aborting shutdown

@@ -10,3 +10,6 @@
 2022-12-13 18:58:54.486 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 2022-12-13 18:58:54.487 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2022-12-13 18:58:54.487 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-13 19:45:44.478 [info] Extension host terminating: received terminate message from renderer
+2022-12-13 19:45:44.479 [info] Lock '/home/kumudinicloud001/.vscode-server/data/User/workspaceStorage/786b16568c6c98be4f1e974d1604ad08/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-13 19:45:44.507 [info] Extension host with pid 1243 exiting with code 0
